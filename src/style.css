@@ -1,8 +1,80 @@
-h1{ 
-    font-size: 80px;
- font-family: "Eagle Lake", serif;
+body{
+
+  font-family: "eagle lake", "Sue Ellen Francisco";
+  background: #402a23;
+}
+
+.container{
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url("../Images/Aerial.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f4e5c2;
+  text-align: center;
+  padding: 200px 0;
+}
+
+header h1{
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1;
+  margin:30px 0 ;
+}
+
+header h2{
   font-weight: 400;
-  font-style: normal;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header h3{
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+header a{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  color: #402a23;
+  padding: 16px 32px;
+  margin-top: 30px;
+  display: inline-block;
+
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #f4e5c2;
 
 }
 
+@media (max-width:900px;) {
+
+  header{
+    padding: 60px 0;
+  }
+
+  header h1{
+    font-size:38 px;
+  }
+
+  header h2{
+    font-size: 20px;
+  }
+
+  header h3{
+    font-size: 15px;
+  }
+  
+}
